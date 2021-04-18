@@ -319,13 +319,13 @@ footer{
     width: 100%;
 }
 .main-img{
-  
+  overflow: hidden;
     order: 2;
     width: 90%;
     margin: 5%;
 }
 .main-img img{
-    transform: scale(1.5, 1.1);
+    transform: scale(1.5, 0.9);
     width: 90%;
     
 }
