@@ -298,7 +298,17 @@ footer{
 }
 
 @media only screen and (max-width:767px) {
-  
+    .nav-link a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+    }
+    .nav-logo{
+        flex-grow: 2;
+    }
+    .nav-items{
+        flex-grow: 2;
+    }
     .nav-icon{
         display: none;
     }
